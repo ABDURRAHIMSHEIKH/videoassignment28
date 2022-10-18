@@ -1,0 +1,241 @@
+            @media screen and (max-width:1200px) {
+                .banner-section {
+                    padding: 74px 0px;
+                }
+                .banner-btn.my-5 {
+                    margin: 27px 0px !important;
+                }
+                .app-section.my-5 {
+                    padding: 0px 0px !important;
+                    margin: 0px 0px !important;
+                }
+                .apply-title {
+                    margin: 0px 0px !important;
+                }
+                .apply-title p {
+                    margin-top: 17px !important;
+                    margin-bottom: 22px 0px !important;
+                }
+                .btn-right button {
+                    font-size: 20px;
+                }
+            }
+            
+            #mobile-checked {
+                display: none;
+            }
+            
+            .mobile-menu-bar {
+                cursor: pointer;
+                display: none;
+                position: relative;
+                display: none !important;
+            }
+            
+            .cross-lable {
+                position: absolute;
+                top: -4px;
+                left: 5px;
+                height: 100%;
+                width: 100%;
+                font-size: 24px;
+                opacity: 0;
+                visibility: hidden;
+                display: none;
+            }
+            
+            @media screen and (max-width:992px) {
+                /* .collapse:not(.show) {
+                    display: block !important;
+                } */
+                .mobile-menu-bar:checked~.cross-lable {
+                    opacity: 1;
+                    visibility: visible;
+                }
+                .mobile-menu-bar {
+                    display: block !important;
+                }
+                .heder-logo {
+                    font-size: 30px;
+                }
+                .mobaile-menu {
+                    display: none;
+                }
+                #mobile-checked:checked~.collapse:not(.show) {
+                    display: block !important;
+                    width: 100%;
+                }
+                .header-nav .navbar-brand span {
+                    font-size: 25px;
+                    height: 36px;
+                    width: 39px;
+                }
+                /* .collapse:not(.show) {
+                    display: block;
+                } */
+                .banner-section {
+                    padding: 47px 0px;
+                }
+                .banner-title h3 {
+                    font-size: 17px;
+                }
+                .banner-title h1 {
+                    padding: 11px 0px;
+                    font-size: 35px;
+                }
+                .banner-btn.my-5 {
+                    margin: 10px 0px !important;
+                }
+                .active-contant {
+                    top: -30px;
+                }
+                .active-contant h1 {
+                    font-size: 29px;
+                }
+                .active-contant p {
+                    font-size: 19px;
+                }
+                .price-item h1 {
+                    font-size: 30px;
+                    margin-bottom: 18px;
+                }
+                .test-image {
+                    padding: 20px 0px !important;
+                }
+                .test-quote {
+                    font-size: 110px;
+                }
+                .team-section h1 {
+                    font-size: 39px;
+                    margin-bottom: 20px !important;
+                }
+                .top-bottom h4 {
+                    padding-bottom: 6px !important;
+                    font-size: 17px;
+                }
+                .top-bottom h1 {
+                    font-size: 26px;
+                }
+                .btn-right button {
+                    padding: 8px 24px;
+                }
+                .menu-btn {
+                    font-size: 15px !important;
+                    padding: 5px 11px !important;
+                }
+            }
+            
+            @media screen and (max-width:768px) {
+                .banner-btn a {
+                    font-size: 16px;
+                    padding: 11px 8px;
+                }
+                .banner-btn input {
+                    padding: 5px 16px !important;
+                }
+                .apply-title h1 {
+                    font-size: 28px;
+                }
+                .apply-title p {
+                    font-size: 17px;
+                }
+                .app-image img {
+                    left: -40px;
+                }
+                .lead.team-sub-title {
+                    font-size: 18px;
+                }
+                .header-nav .navbar-brand span {
+                    font-size: 22px;
+                    height: 33px;
+                    width: 31px;
+                }
+                .heder-logo {
+                    font-size: 27px;
+                }
+            }
+            
+            @media screen and (max-width:576px) {
+                .navbar-toggler-icon {
+                    width: 1em;
+                    height: 1em;
+                }
+                .heder-logo {
+                    font-size: 25px;
+                }
+                .header-nav .navbar-brand span {
+                    font-size: 23px;
+                    height: 33px;
+                    width: 34px;
+                }
+                .banner-section {
+                    padding: 64px 50px;
+                }
+                .banner-title h1 {
+                    padding: 6px 0px !important;
+                }
+                .banner-btn a {
+                    width: 100%;
+                }
+                .banner-title h1 {
+                    font-size: 30px;
+                }
+                .banner-title h3 {
+                    font-size: 14px;
+                }
+                .active-contant p {
+                    font-size: 17px;
+                }
+                .active-contant h1 {
+                    font-size: 27px;
+                    margin: 10px 0px !important;
+                }
+                .apply-title h1 {
+                    font-size: 20px;
+                }
+                .apply-title p {
+                    font-size: 14px;
+                }
+                .app-contant.h-auto h5 {
+                    font-size: 18px !important;
+                }
+                .app-contant.h-auto p {
+                    font-size: 15px;
+                }
+                .testimonial-section h2 {
+                    font-size: 20px;
+                }
+                .testimonial-section p {
+                    font-size: 15px;
+                }
+                .lead.team-sub-title {
+                    font-size: 15px;
+                }
+                .team-section h1 {
+                    font-size: 28px;
+                }
+                .contact-form.mt-5 {
+                    margin-top: 20px !important;
+                }
+                .col.text-center.form-title h2 {
+                    font-size: 20px;
+                }
+            }
+            
+            @media screen and (max-width:420px) {
+                .price-range {
+                    font-size: 40px;
+                }
+                .count-price p {
+                    font-size: 18px;
+                }
+                .banner-title h1 {
+                    font-size: 26px;
+                }
+                .navbar-toggler {
+                    padding: 1px 5px;
+                }
+                .footer {
+                    font-size: 14px;
+                }
+            }
